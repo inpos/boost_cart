@@ -24,7 +24,7 @@ function boost_cart:signal_detector_rail(pos)
 end
 
 boost_cart:register_rail("boost_cart:detectorrail", {
-	description = "Detector rail",
+	description = "Рельс-детектор",
 	tiles = {
 		"carts_rail_straight_dtc.png", "carts_rail_curved_dtc.png",
 		"carts_rail_t_junction_dtc.png", "carts_rail_crossing_dtc.png"
@@ -35,7 +35,7 @@ boost_cart:register_rail("boost_cart:detectorrail", {
 })
 
 boost_cart:register_rail("boost_cart:detectorrail_on", {
-	description = "Detector rail ON (you hacker you)",
+	description = "Рельс-детектор включён (вы хакер)",
 	tiles = {
 		"carts_rail_straight_dtc_on.png", "carts_rail_curved_dtc_on.png",
 		"carts_rail_t_junction_dtc_on.png", "carts_rail_crossing_dtc_on.png"

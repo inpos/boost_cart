@@ -357,7 +357,7 @@ minetest.register_entity(":carts:cart", cart_entity)
 -- Register item to place the entity
 if not boost_cart.mtg_compat then
 	minetest.register_craftitem(":carts:cart", {
-		description = "Cart (Sneak+Click to pick up)",
+		description = "Тележка (Красться+Клик, чтобы забрать)",
 		inventory_image = minetest.inventorycube(
 			"cart_top.png",
 			"cart_side.png",

@@ -7,7 +7,7 @@ if minetest.registered_nodes["carts:rail"] then
 end
 
 boost_cart:register_rail(":"..regular_rail_itemname, {
-	description = "Rail",
+	description = "Рельс",
 	tiles = {
 		"carts_rail_straight.png", "carts_rail_curved.png",
 		"carts_rail_t_junction.png", "carts_rail_crossing.png"
@@ -20,7 +20,7 @@ if minetest.get_modpath("moreores") then
 	minetest.register_alias("carts:copperrail", "moreores:copper_rail")
 else
 	boost_cart:register_rail(":carts:copperrail", {
-		description = "Copper rail",
+		description = "Медный рельс",
 		tiles = {
 			"carts_rail_straight_cp.png", "carts_rail_curved_cp.png",
 			"carts_rail_t_junction_cp.png", "carts_rail_crossing_cp.png"
@@ -40,7 +40,7 @@ end
 
 -- Power rail
 boost_cart:register_rail(":carts:powerrail", {
-	description = "Powered rail",
+	description = "Ускоряющий рельс",
 	tiles = {
 		"carts_rail_straight_pwr.png", "carts_rail_curved_pwr.png",
 		"carts_rail_t_junction_pwr.png", "carts_rail_crossing_pwr.png"
@@ -74,7 +74,7 @@ minetest.register_craft({
 
 -- Brake rail
 boost_cart:register_rail(":carts:brakerail", {
-	description = "Brake rail",
+	description = "Тормозящий рельс",
 	tiles = {
 		"carts_rail_straight_brk.png", "carts_rail_curved_brk.png",
 		"carts_rail_t_junction_brk.png", "carts_rail_crossing_brk.png"
@@ -107,7 +107,7 @@ minetest.register_craft({
 })
 
 boost_cart:register_rail("boost_cart:startstoprail", {
-	description = "Start-stop rail",
+	description = "Рельс пуска/остановки",
 	tiles = {
 		"carts_rail_straight_ss.png", "carts_rail_curved_ss.png",
 		"carts_rail_t_junction_ss.png", "carts_rail_crossing_ss.png"
